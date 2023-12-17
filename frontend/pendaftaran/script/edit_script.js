@@ -93,6 +93,7 @@ function checkForValidations(evt) {
     } else {
         input.classList.remove('error', 'animated', 'shake');
         errorMessage.style.display = 'none';
+        input.classList.add('success');
     }
 }
 
