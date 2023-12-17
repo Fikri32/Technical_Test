@@ -19,13 +19,13 @@ $ npm -v 9.5.1
 
 ## Menjalankan Aplikasi Backend dan Frontend
 1. Buka folder root
-2. Jalankan `npm run` dev untuk running server dan client
+2. Jalankan `npm run dev` pada terminal untuk running server dan client
 3. Untuk Backend akan berjalan di port 3000
 4. Untuk frontend akan berjalan di por 8081(lebih lengkapnya akan tampil di cmd)
 
 ## Menjalankan Automation Testing
 1. Buka folder root 
-2. Jalankan `npm test` untuk menjalankan automation testing
+2. Jalankan `npm test` pada terminal untuk menjalankan automation testing,pastikan server menyala saat melakukan testing
 3. automation testing yang berjalan ada 3 yaitu untuk create data,edit data dan delete data
 
 
