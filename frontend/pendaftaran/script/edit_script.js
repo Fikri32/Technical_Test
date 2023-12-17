@@ -126,7 +126,7 @@ function validateEmail(input) {
 }
 
 function validateNomorTelepon(input) {
-    var nomorTeleponRegex = /^(?:(?:\+|0{0,2})[1-9]\d{0,2}\s?)?(?:\()?\d{3}(?:\))?(?:[\s.-]?)\d{3}(?:[\s.-]?)\d{4}$/;
+    var nomorTeleponRegex = /^(?:(?:\+|0{0,2})[1-9]\d{0,2}\s?)?(?:\()?\d{1,4}(?:\))?(?:[\s.-]?)\d{1,4}(?:[\s.-]?)\d{1,9}$/;
     var isValid = nomorTeleponRegex.test(input.value);
     toggleErrorMessage(input, isValid);
     return isValid;

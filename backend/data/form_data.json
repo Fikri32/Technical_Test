@@ -1,5 +1,29 @@
 [
   {
+    "nama": "Agus Setiawan",
+    "email": "agus.setiawan@mail.com",
+    "nomor_telepon": "+62 812-3456-7890",
+    "id": 1
+  },
+  {
+    "nama": "Dian Anggraeni",
+    "email": "dian.anggraeni@mail.com",
+    "nomor_telepon": "+62 813-4567-8901",
+    "id": 2
+  },
+  {
+    "nama": "Budi Santoso",
+    "email": "budi.santoso@mail.com",
+    "nomor_telepon": "+62 811-2345-6789",
+    "id": 3
+  },
+  {
+    "nama": "Citra Lestari",
+    "email": "citra.lestari@mail.com",
+    "nomor_telepon": "+62 812-3456-7890",
+    "id": 4
+  },
+  {
     "nama": "Eko Prasetyo",
     "email": "eko.prasetyo@mail.com",
     "nomor_telepon": "+62 813-4567-8901",
@@ -34,17 +58,5 @@
     "email": "kartika.dewi@mail.com",
     "nomor_telepon": "+62 812-3456-7890",
     "id": 10
-  },
-  {
-    "nama": "John Doe",
-    "email": "john@example.com",
-    "nomor_telepon": "12345678910",
-    "id": 11
-  },
-  {
-    "nama": "John Doe",
-    "email": "john@example.com",
-    "nomor_telepon": "12345678910",
-    "id": 12
   }
 ]
