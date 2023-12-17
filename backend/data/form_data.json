@@ -1,110 +1,62 @@
 [
   {
-    "nama": "Veniam et deleniti ",
-    "email": "veruv@mailinator.com",
-    "nomor_telepon": "+1 (139) 121-5358",
+    "nama": "Agus Setiawan",
+    "email": "agus.setiawan@mail.com",
+    "nomor_telepon": "+62 812-3456-7890",
+    "id": 1
+  },
+  {
+    "nama": "Dian Anggraeni",
+    "email": "dian.anggraeni@mail.com",
+    "nomor_telepon": "+62 813-4567-8901",
     "id": 2
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
+    "nama": "Budi Santoso",
+    "email": "budi.santoso@mail.com",
+    "nomor_telepon": "+62 811-2345-6789",
     "id": 3
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Citra Lestari",
+    "email": "citra.lestari@mail.com",
+    "nomor_telepon": "+62 812-3456-7890",
+    "id": 4
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Eko Prasetyo",
+    "email": "eko.prasetyo@mail.com",
+    "nomor_telepon": "+62 813-4567-8901",
+    "id": 5
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Fitriani Indah",
+    "email": "fitriani.indah@mail.com",
+    "nomor_telepon": "+62 811-2345-6789",
+    "id": 6
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Hendri Susanto",
+    "email": "hendri.susanto@mail.com",
+    "nomor_telepon": "+62 812-3456-7890",
+    "id": 7
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Ika Puspita",
+    "email": "ika.puspita@mail.com",
+    "nomor_telepon": "+62 813-4567-8901",
+    "id": 8
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Joko Supriyanto",
+    "email": "joko.supriyanto@mail.com",
+    "nomor_telepon": "+62 811-2345-6789",
+    "id": 9
   },
   {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
-  },
-  {
-    "nama": "Proident sit exped",
-    "email": "test@gmail.com",
-    "nomor_telepon": "+1 (918) 793-4737",
-    "id": 3
+    "nama": "Kartika Dewi",
+    "email": "kartika.dewi@mail.com",
+    "nomor_telepon": "+62 812-3456-7890",
+    "id": 10
   }
 ]
