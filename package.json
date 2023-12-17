@@ -1,0 +1,20 @@
+{
+  "name": "technical_test_huawei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "Node backend/server.js",
+    "server": "Nodemon backend/server.js",
+    "client": "http-server frontend -c-1 -p 8081",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "test": "node testing/main-test.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.2",
+    "selenium-webdriver": "^4.16.0"
+  }
+}

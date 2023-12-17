@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <title>Formulir Edit Pendaftaran</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">Formulir Edit Pendaftaran</h2>
+        <form id="registrationForm">
+            <input type="text" id="nama" name="nama" required placeholder="Nama">
+            <p id="nama-error" class="error-message">Nama harus memiliki setidaknya 2 karakter!</p>
+
+            <input type="email" id="email" name="email" required placeholder="Email">
+            <p id="email-error" class="error-message">Format email tidak valid!</p>
+
+            <input type="tel" id="nomorTelepon" name="nomor_telepon" required placeholder="Nomor Telepon">
+            <p id="nomorTelepon-error" class="error-message">Nomor telepon tidak valid (minimal 10 digit)!</p>
+
+            <button type="submit" id="kirim" class="button-kirim" onclick="validateForm()">Kirim</button>
+        </form>
+    </div>
+    <footer>
+        <p style="color: #111;">Technical Test Huawei 2023</p>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../script/edit_script.js"></script>
+</body>
+
+</html>

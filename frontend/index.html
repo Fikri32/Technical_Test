@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CDN CSS DataTable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/buttons/2.0.0/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+    <!-- End -->
+    <!-- CDN CSS FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- End -->
+    <!-- Layout Style -->
+    <link rel="stylesheet" href="./assets/styles.css">
+    <!-- End -->
+    <title>List Pendaftar</title>
+</head>
+
+<body>
+    <header>
+        <span class="header-span">Technical Test Huawei</span>
+        <h2 class="header-text">List Pendaftar</h2>
+    </header>
+    <div class="wrapper">
+        <table id="dataTable" class="hover responsive" style="width:100%">
+            <thead>
+                <tr>
+                    <th style="background-color: white;">Nama</th>
+                    <th style="background-color: white;">Email</th>
+                    <th style="background-color: white;">Telepon</th>
+                    <th style="background-color: white;">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated dynamically using JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p style="color: #111;">Technical Test Huawei &copy; 2023</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- CDN JS DataTable -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    <!-- End -->
+    <!-- CDN SWAL -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- End -->
+
+    <!-- Custom Script -->
+    <script src="index_script.js"></script>
+    <!-- End -->
+</body>
+
+</html>

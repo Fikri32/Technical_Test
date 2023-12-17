@@ -1,0 +1,314 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: url(../assets/bg-pattern-inverse.png);
+    background-color: #F3F4F6;
+    ;
+}
+
+header {
+    background: #FFF;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    padding-bottom: 15px;
+    height: auto;
+    color: #000;
+    line-height: normal;
+
+}
+
+.header-text {
+    padding-top: 0;
+    margin: 0;
+    color: #000;
+    line-height: normal;
+    padding-left: 28px;
+}
+
+.header-span {
+    color: #DEDEDE;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 28px;
+}
+
+footer {
+    /* background-color: #333; */
+    /* Warna latar belakang footer */
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.wrapper {
+    padding-top: 20px;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    margin-bottom: 100px;
+    /* Menambahkan margin bawah agar footer tidak tumpang tindih */
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Tambahkan padding di kanan dan kiri */
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.25)
+}
+
+/* ... (aturan CSS lainnya) */
+
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+
+
+button {
+    font-size: 16px;
+    padding: 15px;
+    /* margin-top: 20px; */
+    background-color: #036B84;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    /* margin-right: 10px; */
+    /* Jarak antar tombol */
+}
+
+.button-kirim {
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #036B84;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    /* margin-right: 10px; */
+    /* Jarak antar tombol */
+}
+
+.add-button {
+    background-color: #036B84 !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #036B84 !important;
+    ;
+    /* Warna hijau yang sedikit diubah saat dihover */
+}
+
+/* Tambahkan aturan CSS untuk responsivitas tabel */
+#dataTable {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#dataTable tbody td {
+    color: #111;
+}
+
+.action-buttons {
+    /* display: flex; */
+    justify-content: space-around;
+}
+
+/* CSS Untuk Tombol Edit */
+.edit-button {
+    /* background-color: yellow; */
+    background-color: transparent;
+    border: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+    background-color: #036B84;
+    color: black;
+    /* Warna kuning yang sedikit diubah */
+}
+
+/* CSS Untuk Tombol Delete */
+.delete-button {
+    /* background-color: red; */
+    background-color: transparent;
+    border: none;
+    transition: background-color 0.3s ease;
+    color: black;
+}
+
+.delete-button:hover {
+    background-color: #ff6666;
+    color: black;
+    /* Warna merah yang sedikit diubah */
+}
+
+
+#addData {
+    margin-bottom: 10px;
+    /* Adjust the margin as needed */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    height: 45px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+
+}
+
+
+/* new */
+.error-message {
+    display: none;
+    font-weight: bold;
+    color: red;
+    animation: shake 0.5s ease;
+    margin: 0;
+    /* Animasi shake */
+}
+
+.error-message::first-letter {
+    text-transform: uppercase;
+}
+
+input.error {
+    margin: 0;
+    background: #fff url("http://www.wallplayer.tv/images/wallplayer_en/icon_error_white.gif") no-repeat 97% center;
+    border-color: red;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 0, 0, 0.2);
+}
+
+input.success {
+    background: #fff url("https://www.tafensw.edu.au/howex/stylesets/tafensw/icons/tick-icon.png") no-repeat 97% center;
+    border-color: green;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 255, 0, 0.2);
+}
+
+.animated {
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 0.3s;
+    -moz-animation-duration: 0.3s;
+    -ms-animation-duration: 0.3s;
+    -o-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+}
+
+@-webkit-keyframes shake {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+    }
+
+    25%,
+    75% {
+        -webkit-transform: translateX(-10px);
+    }
+
+    50% {
+        -webkit-transform: translateX(10px);
+    }
+}
+
+@-moz-keyframes shake {
+
+    0%,
+    100% {
+        -moz-transform: translateX(0);
+    }
+
+    25%,
+    75% {
+        -moz-transform: translateX(-10px);
+    }
+
+    50% {
+        -moz-transform: translateX(10px);
+    }
+}
+
+@-o-keyframes shake {
+
+    0%,
+    100% {
+        -o-transform: translateX(0);
+    }
+
+    25%,
+    75% {
+        -o-transform: translateX(-10px);
+    }
+
+    50% {
+        -o-transform: translateX(10px);
+    }
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    25%,
+    75% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+    -o-animation-name: shake;
+    animation-name: shake;
+}
+
+/* JUST FOR AESTHETICS */
+
+:focus {
+    outline: 0;
+}
